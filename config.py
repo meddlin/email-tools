@@ -1,0 +1,3 @@
+local = {
+    'save_location' : ''
+}
