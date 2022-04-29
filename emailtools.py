@@ -13,7 +13,11 @@
 
 import credentials_dev as credentials
 import config_dev as config
-from imap_tools import MailBox, AND
+# from imap_tools import MailBox, AND
+import emailtools
+
+test = emailtools
+print(test)
 
 imap_box = credentials.email['imap_box']
 acct_username = credentials.email['username']
